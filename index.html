@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bezos</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- ui kit -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <!-- aos scroll effect -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- flat icon -->
+    <link rel="stylesheet" href="css/flat-icon/flaticon.css">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="main-header">
+        <!-- navbar section -->
+        <nav class="navbar navbar-expand-lg my-nav"
+            uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="container">
+                <a class="navbar-brand brand" href="#">Bezos</a>
+                <button class="navbar-toggler navbar-toggler-right toggler-border" data-toggle="collapse"
+                    data-target="#myNab">
+                    <i class="fa fa-bars icon" aria-hidden="true"></i>
+                </button>
+                <div id="myNab" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#main-header">home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about<i class="fa fa-caret-down"></i></a>
+                            <div uk-dropdown="pos: bottom-justify; boundary: .boundary-align; boundary-align: true">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a class="drop-item" href="#profile-section">profile</a></li>
+                                    <li><a class="drop-item" href="#team-section">team member</a></li>
+                                    <li><a class="drop-item" href="#pricing-section">pricing</a></li>
+                                    <li><a class="drop-item" href="#testimonial">testimonial</a></li>
+                                    <li><a class="drop-item" href="#faq-section">faq</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#service-section">service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio-section">portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog-section">blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-section">contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- navbar section end -->
+
+        <!-- carousel section -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade my-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content">
+                        <div class="bg-img-1">
+                            <div class="overlay">
+                                <div class="inner-content">
+                                    <strong>hello</strong>
+                                    <h1>i am <span>chris coyier</span> <br> a ui/ux designer</h1>
+                                    <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                                        molestiae ratione,
+                                    </p>
+                                    <a href="#" class="btn link-btn">hire me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <div class="bg-img-2">
+                            <div class="overlay">
+                                <div class="inner-content">
+                                    <strong>hello</strong>
+                                    <h1>i am <span>chris coyier</span> <br> design is my freedom</h1>
+                                    <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                                        molestiae ratione,
+                                    </p>
+                                    <a href="#" class="btn link-btn">hire me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content">
+                        <div class="bg-img-3">
+                            <div class="overlay">
+                                <div class="inner-content">
+                                    <strong>hello</strong>
+                                    <h1>i am <span>chris coyier</span> <br> a full stack developer</h1>
+                                    <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                                        molestiae ratione,
+                                    </p>
+                                    <a href="#" class="btn link-btn">hire me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+
+    <!-- main content -->
+    <main>
+        <!-- profile section start -->
+        <section id="profile-section" data-aos="zoom-in">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 mb-sm-5 extra-sm-m">
+                        <img src="images/portfolio/about.jpg" class="img-fluid profile-img" alt="img">
+                    </div>
+
+                    <div class="col-md-6">
+                        <nav class="navbar navbar-expand-md px-0">
+                            <button class="navbar-toggler toggler-border" data-toggle="collapse" data-target="#Nab">
+                                <i class="fa fa-bars icon"></i>
+                            </button>
+                            <div id="Nab" class="collapse navbar-collapse">
+                                <ul class="nav nav-pills navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link profile-link active" data-toggle="pill"
+                                            href="#about-me">about me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link profile-link" data-toggle="pill" href="#skill">skill</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link profile-link" data-toggle="pill"
+                                            href="#experience">experience</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- tab content -->
+                        <!-- about tab -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active about-tab" id="about-me">
+                                <div>
+                                    <h2>about me</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed accusamus ab quam
+                                        labore inventore suscipit consectetur nemo, quos ipsum maxime quibusdam, vero
+                                        deserunt, eius cumque.</p>
+                                </div>
+                                <div>
+                                    <h3>design in my blood i do web design and development science last 7 years</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint ea debitis
+                                        inventore, omnis deserunt?</p>
+                                </div>
+                            </div>
+                            <!-- skill tab -->
+                            <div class="tab-pane fade skill-tab" id="skill">
+                                <div>
+                                    <h2>skill</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut amet facilis
+                                        nisi harum debitis dignissimos vel? Sed, nihil maiores maxime et veniam corrupti
+                                        hic.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <span>html/css</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 85%">85%</div>
+                                            </div>
+                                            <span>javascript</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 80%">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>graphics design</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 75%">75%</div>
+                                            </div>
+                                            <span>bootstrap</span>
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 90%">95%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- experience tab -->
+                            <div class="tab-pane fade experience-tab" id="experience">
+                                <div>
+                                    <h3>ui/ux designer</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolorem qui
+                                        corrupti ut ducimus vel vitae, perspiciatis maxime, eius optio provident et?
+                                        Suscipit, iste fuga.</p>
+                                </div>
+                                <div>
+                                    <h3>graphics designer</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolorem qui
+                                        corrupti ut ducimus vel vitae, perspiciatis maxime, eius optio provident et?
+                                        Suscipit, iste fuga.</p>
+                                </div>
+                                <div>
+                                    <h3>full stack developer</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolorem qui
+                                        corrupti ut ducimus vel vitae, perspiciatis maxime, eius optio provident et?
+                                        Suscipit, iste fuga.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- profile section end -->
+
+
+        <!-- service section start -->
+        <section id="service-section" class="text-center">
+            <div class="container">
+                <h2>services</h2>
+                <h3>what service do you need !</h3>
+                <div class="row mb-md-4" data-aos="zoom-in">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-web-development"></i>
+                                    <h3>web design</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-ux-interface"></i>
+                                    <h3>ui/ux design</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-app"></i>
+                                    <h3>apps design</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second row -->
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-branding"></i>
+                                    <h3>branding</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-digital-marketing"></i>
+                                    <h3>digital marketing</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="service-content text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="flaticon-vector"></i>
+                                    <h3>graphics design</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique iste ullam
+                                        dignissimos iusto repudiandae!</p>
+                                    <a class="btn card-btn" href="#">read more</a>
+                                </div>
+                            </div>
+                            <div class="card-shutter">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service section end -->
+
+
+        <!-- counter up section start -->
+        <section id="counter-up" data-aos="zoom-in">
+            <div class="counter-bg">
+                <div class="counter-overlay">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-sm-4 d-margin">
+                                <i class="flaticon-web-development"></i>
+                                <div>
+                                    <span class="counter">9.5</span><span> Years</span>
+                                </div>
+                                <p>Experience</p>
+                            </div>
+                            <div class="col-sm-4 d-margin">
+                                <i class="flaticon-branding"></i>
+                                <div>
+                                    <span class="counter">1200</span><span> +</span>
+                                </div>
+                                <p>Happy customer</p>
+                            </div>
+                            <div class="col-sm-4 d-margin">
+                                <i class="flaticon-monitoring"></i>
+                                <div>
+                                    <span class="counter">356</span><span> +</span>
+                                </div>
+                                <p>Project done</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter up section end -->
+
+        <!-- portfolio section start -->
+        <section id="portfolio-section" class="text-center" data-aos="zoom-in">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <h3>chackout my latest work</h3>
+                <nav class="navbar navbar-expand-md px-0">
+                    <button class="navbar-toggler toggler-border" data-toggle="collapse" data-target="#portfo-nav">
+                        <i class="fa fa-bars icon" aria-hidden="true"></i>
+                    </button>
+                    <div id="portfo-nav" class="collapse navbar-collapse">
+                        <ul class="nav nav-pills navbar-nav  portfolio-tab mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link portfolio-link active" data-toggle="pill" href="#all">all</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link portfolio-link" data-toggle="pill" href="#fontEnd-design">fontEnd
+                                    design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link portfolio-link" data-toggle="pill" href="#full-stack">full stack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link portfolio-link" data-toggle="pill" href="#graphics">graphics</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- tab content -->
+                <!-- tab one -->
+                <div class="tab-content" uk-lightbox>
+                    <div class="tab-pane fade show active" id="all">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio4.jpg">
+                                    <img src="images/portfolio/portfolio4.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio1.jpg">
+                                    <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- second row -->
+                        <div class="row portfolio-img">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio7.jpg">
+                                    <img src="images/portfolio/portfolio7.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio3.jpg">
+                                    <img src="images/portfolio/portfolio3.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab two -->
+
+                    <div class="tab-pane fade" id="fontEnd-design">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio4.jpg">
+                                    <img src="images/portfolio/portfolio4.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio6.jpg">
+                                    <img src="images/portfolio/portfolio6.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- second row -->
+                        <div class="row portfolio-img">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio1.jpg">
+                                    <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio3.jpg">
+                                    <img src="images/portfolio/portfolio3.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab three -->
+
+                    <div class="tab-pane fade" id="full-stack">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio1.jpg">
+                                    <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio3.jpg">
+                                    <img src="images/portfolio/portfolio3.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- second row -->
+                        <div class="row portfolio-img">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio7.jpg">
+                                    <img src="images/portfolio/portfolio7.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio4.jpg">
+                                    <img src="images/portfolio/portfolio4.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tab four -->
+
+                    <div class="tab-pane fade" id="graphics">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio1.jpg">
+                                    <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio6.jpg">
+                                    <img src="images/portfolio/portfolio6.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- second row -->
+                        <div class="row portfolio-img">
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio4.jpg">
+                                    <img src="images/portfolio/portfolio4.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-12 p-2">
+                                <a href="images/portfolio/portfolio7.jpg">
+                                    <img src="images/portfolio/portfolio7.jpg" class="img-fluid" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio section end -->
+
+        <!-- team section start -->
+        <section id="team-section" class="text-center" data-aos="zoom-in">
+            <div class="container">
+                <h2>my team</h2>
+                <h3>checkout all the team member</h3>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card team-card">
+                            <img src="images/testimonial/face1.jpg" class="img-fluid" alt="img">
+                            <div class="card-body team-body">
+                                <h3>lan khilzi</h3>
+                                <p>react developer</p>
+                            </div>
+                            <div class="card-footer team-footer">
+                                <a class="icon-place"><i class="fa fa-facebook"></i></a>
+                                <a class="icon-place"><i class="fa fa-twitter"></i></a>
+                                <a class="icon-place"><i class="fa fa-linkedin"></i></a>
+                                <a class="icon-place"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card team-card">
+                            <img src="images/testimonial/face2.jpg" class="img-fluid" alt="img">
+                            <div class="card-body team-body">
+                                <h3>lubana cox</h3>
+                                <p>graphics designer</p>
+                            </div>
+                            <div class="card-footer team-footer">
+                                <a class="icon-place"><i class="fa fa-facebook"></i></a>
+                                <a class="icon-place"><i class="fa fa-twitter"></i></a>
+                                <a class="icon-place"><i class="fa fa-linkedin"></i></a>
+                                <a class="icon-place"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card team-card">
+                            <img src="images/testimonial/face3.jpg" class="img-fluid" alt="img">
+                            <div class="card-body team-body">
+                                <h3>jack mark</h3>
+                                <p>ui/ux designer</p>
+                            </div>
+                            <div class="card-footer team-footer">
+                                <a class="icon-place"><i class="fa fa-facebook"></i></a>
+                                <a class="icon-place"><i class="fa fa-twitter"></i></a>
+                                <a class="icon-place"><i class="fa fa-linkedin"></i></a>
+                                <a class="icon-place"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card team-card">
+                            <img src="images/testimonial/face4.jpg" class="img-fluid" alt="img">
+                            <div class="card-body team-body">
+                                <h3>frank mok</h3>
+                                <p>full stack developer</p>
+                            </div>
+                            <div class="card-footer team-footer">
+                                <a class="icon-place"><i class="fa fa-facebook"></i></a>
+                                <a class="icon-place"><i class="fa fa-twitter"></i></a>
+                                <a class="icon-place"><i class="fa fa-linkedin"></i></a>
+                                <a class="icon-place"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team section end -->
+
+        <!-- pricing section start -->
+        <section id="pricing-section" class="text-center" data-aos="zoom-in">
+            <div class="container">
+                <h2>pricing & packages</h2>
+                <h3>choose your perfect plan</h3>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-pricing">
+                            <div class="price-header">
+                                <h3>basic</h3>
+                                <span>$16</span>
+                            </div>
+                            <div class="card-body pricing-list">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul>
+                            </div>
+                            <div class="price-btn">
+                                <a class="btn general-btn" href="#">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-pricing">
+                            <div class="price-header">
+                                <h3>standard</h3>
+                                <span>$36</span>
+                            </div>
+                            <div class="card-body pricing-list">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul>
+                            </div>
+                            <div class="price-btn">
+                                <a class="btn general-btn" href="#">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-pricing">
+                            <div class="price-header">
+                                <h3>primium</h3>
+                                <span>$54</span>
+                            </div>
+                            <div class="card-body pricing-list">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul>
+                            </div>
+                            <div class="price-btn">
+                                <a class="btn general-btn" href="#">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing section end -->
+
+        <!-- testimonial section start -->
+        <section id="testimonial" data-aos="zoom-in">
+            <div class="container text-center">
+                <h2>testimonial</h2>
+                <h3>clints feedback</h3>
+                <div class="row slider">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face1.jpg" class="img-fluid" alt="img">
+                            <span>justin adam</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face2.jpg" class="img-fluid" alt="img">
+                            <span>eva taylor</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face3.jpg" class="img-fluid" alt="img">
+                            <span>exey rock</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face4.jpg" class="img-fluid" alt="img">
+                            <span>eva taylor</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face1.jpg" class="img-fluid" alt="img">
+                            <span>exey rock</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <img src="images/testimonial/face2.jpg" class="img-fluid" alt="img">
+                            <span>justin adam</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                                cumvoluptate adipisci repellat?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section end -->
+
+
+        <!-- blog section start -->
+        <section id="blog-section" data-aos="zoom-in">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>latest blog</h2>
+                    <h3>recent form blog</h3>
+                </div>
+                <div class="row mb-lg-5 mb-md-4" data-aos="zoom-in">
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio2.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio4.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio6.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio7.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0 rounded-0">
+                            <img src="images/portfolio/portfolio1.jpg" class="img-fluid" alt="img">
+                            <div class="card-body">
+                                <div class="d-lg-flex justify-content-between comment">
+                                    <div class="mr-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <span>jan. 01. 2021</span>
+                                    </div>
+                                    <div>
+                                        <i class="fa fa-comment"></i>
+                                        <span>comments</span>
+                                    </div>
+                                </div>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                                <a class="btn block-btn rounded-0" href="#">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog section end -->
+
+        <!-- faq section start -->
+        <section id="faq-section" data-aos="zoom-in">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>faq</h2>
+                    <h3>frequently asked question</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="accordion faq-collapse" id="accordionExample">
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne">
+                                            where are you form?
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro quia
+                                        distinctio, atque odit possimus fugit enim itaque rem at, deleniti, adipisci
+                                        temporibus officiis voluptatibus. Dicta perferendis eum sit excepturi dolore.
+                                        Nobis exercitationem magnam ab perspiciatis rem mollitia numquam maxime!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo">
+                                            payment method step by step?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium
+                                        doloremque in ratione rerum exercitationem, reprehenderit, accusamus soluta,
+                                        tenetur explicabo veritatis amet unde iusto dicta cum sapiente iure sequi esse
+                                        porro consequuntur. Minus sapiente recusandae delectus dignissimos! Debitis nam
+                                        magnam aspernatur rem odio minima, quisquam hic amet id cumque nostrum atque quo
+                                        itaque. Amet, voluptate!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree">
+                                            what is the average response time?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda adipisci ad
+                                        molestiae quo, sed cum non debitis quod, necessitatibus dignissimos quidem
+                                        obcaecati dolorum quaerat accusamus vero quas maxime! Natus perspiciatis nisi
+                                        deleniti ipsa ea consequatur, nostrum fugit, eveniet nobis quis totam quas,
+                                        placeat aperiam accusantium molestiae quod omnis a quam.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn" type="button" data-toggle="collapse"
+                                            data-target="#collapseFour">
+                                            where are you form?
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet porro quia
+                                        distinctio, atque odit possimus fugit enim itaque rem at, deleniti, adipisci
+                                        temporibus officiis voluptatibus. Dicta perferendis eum sit excepturi dolore.
+                                        Nobis exercitationem magnam ab perspiciatis rem mollitia numquam maxime!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn collapsed" data-toggle="collapse"
+                                            data-target="#collapseFive">
+                                            payment method step by step?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium
+                                        doloremque in ratione rerum exercitationem, reprehenderit, accusamus soluta,
+                                        tenetur explicabo veritatis amet unde iusto dicta cum sapiente iure sequi esse
+                                        porro consequuntur. Minus sapiente recusandae delectus dignissimos! Debitis nam
+                                        magnam aspernatur rem odio minima, quisquam hic amet id cumque nostrum atque quo
+                                        itaque. Amet, voluptate!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card collapse-card">
+                                <div class="card-header heading">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-block collapse-btn collapsed" data-toggle="collapse"
+                                            data-target="#collapseSix">
+                                            what is the average response time?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSix" class="collapse" data-parent="#accordionExample">
+                                    <div class="card-body collapse-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda adipisci ad
+                                        molestiae quo, sed cum non debitis quod, necessitatibus dignissimos quidem
+                                        obcaecati dolorum quaerat accusamus vero quas maxime! Natus perspiciatis nisi
+                                        deleniti ipsa ea consequatur, nostrum fugit, eveniet nobis quis totam quas,
+                                        placeat aperiam accusantium molestiae quod omnis a quam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq section end -->
+
+
+        <!-- contact section start -->
+        <section id="contact-section" data-aos="zoom-in">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>contact</h2>
+                    <h3>get in touch</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 form-section">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control form-input" placeholder="First Name"
+                                        id="inputEmail4">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="password" class="form-control form-input" placeholder="Last Name"
+                                        id="inputPassword4">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-input" id="inputAddress"
+                                    placeholder="Email address">
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control form-input" name="textArea" id="#textArea"
+                                            cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn general-btn">Sent Message</a>
+                        </form>
+                    </div>
+                    <div class="col-lg-5 col-md-12 ml-auto more-info">
+                        <h3>went to know more details please knock me</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ratione labore odio quasi
+                            iure quaerat voluptatum recusandae eaque hic distinctio!</p>
+                        <a href="#" class="btn general-btn">let's talk</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+    </main>
+    <!-- footer section start -->
+    <footer id="footer" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 about-us">
+                    <h3>Bezos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam asperiores dolore debitis,
+                        quaerat corporis atque hic quibusdam sed libero sint amet laudantium nesciunt quia possimus.</p>
+                </div>
+                <div class="col-md-4 col-lg-3 features-list ml-auto">
+                    <h3>features</h3>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">testimonial</a></li>
+                        <li><a href="#">terms & service</a></li>
+                        <li><a href="#">privacy</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 newsletter">
+                    <h3>newsletter</h3>
+                    <div class="input-group news-group">
+                        <input type="text" class="form-control news-input" placeholder="enter email">
+                        <div class="input-group-append">
+                            <a href="#" class="btn input-group-text footer-btn">subscribe</a>
+                        </div>
+                    </div>
+                    <div class="social-icon">
+                        <h3>follow me</h3>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- copy right section -->
+            <div id="copy-right" class="text-center">
+                <p>Copyright&#169;2021 all right reserved | this template is developed by <span>hossain mamun</span></p>
+            </div>
+            <!-- copy right section end -->
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+    <!-- javaScript all files -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <!-- counter up -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoint.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- counter class -->
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+</body>
+
+</html>
